@@ -2,79 +2,79 @@
 en:
   activerecord:
     models:
-      answer: Answer
-      certificate: Certificate
-      certificate_template: Certificate Template
-      feature: Feature
-      goal: Goal
-      group: Group
-      integration: Integration
-      item: Lesson
-      option: Option
-      path: Course
-      payment: Payment
-      plan: Plan
-      question: Question
-      skill: Tag
-      tenant: Academy
-      theme: Theme
-      user: User
+      answer: 答案
+      certificate: 证书
+      certificate_template: 赠书模板
+      feature: 功能
+      goal: 目标
+      group: 小组
+      integration: 一体化
+      item: 课
+      option: 选项
+      path: 课程
+      payment: 支付
+      plan: 计划
+      question: 问题
+      skill: 标签
+      tenant: 学院
+      theme: 主题
+      user: 用户
     attributes:
       certificate:
-        date_issued: Date issued
-        status: Status
+        date_issued: 发行日
+        status: 阶段
       certificate_template:
-        course_description: Course description
-        brand_logo: Brand logo
-        signature: Signature
-        printed_name: "Printed name"
-        printed_position: "Printed position"
-        minimum_level: "Minimum level to issue"
-        automatically_issued: "Automatically issued"
+        course_description: 课程介绍
+        brand_logo: 品牌标志
+        signature: 签名
+        printed_name: "打印的姓名"
+        printed_position: "打印位置"
+        minimum_level: "最低的发行等级"
+        automatically_issued: "自动发行"
       groups:
-        name: Name
+        name: 名字
       items:
-        attachment: Attachment
+        attachment: 附件
       path:
-        banner: Cover image
-        background_image: Background image
-        free: Free
-        subscription: Subscription
-        one-time: One-time
+        banner: 封面
+        background_image: 背景图片
+        free: 免费
+        subscription: 订阅
+        one-time: 一次性
       tenants:
-        subdomain: Subdomain
-        password: Password
+        subdomain: 附属域名 
+        password: 密码
       themes:
-        brand_logo: Brand logo
-        background_image: Background image
-        course_background: Course background
+        brand_logo: 品牌标志
+        background_image: 背景图片
+        course_background: 课程背景
       user:
-        avatar: Avatar
+        avatar: 人物
   admin:
     welcome:
       index:
-        total_views: Total Views
-        lesson_title: Lesson title
-        in_minutes: "(in minutes)"
+        total_views: 总观看量
+        lesson_title: 课程标题
+        in_minutes: "(分钟内)"
     paths:
       certificates_tab:
-        completed: Completed Lessons
-        status: Certificates Status
-        issued: Issued
-        pending: Pending
-        automatic: Automatically
-        canceled: Canceled
-        pdf: View as PDF
-        cancel: Cancel
-        issue: Issue
-        no_certificate: There is no certificate template created yet.
-        create_template: Create a template
+        completed: 完成的课程
+        status: 证书阶段
+        issued: 已发行
+        pending: 审核中
+        automatic: 自动的
+        canceled: 取消的
+        pdf: 用PDF查看
+        cancel: 取消
+        issue: 发行
+        no_certificate: 还未创建证书模板
+        create_template: 创建模板
       users_tab:
-        completed: Completed Lessons
-        details: Details
+        completed: 已完成的课程
+        details: 详情
       edit_payment:
-        billing_mode: Billing mode
-        edit_payment: Edit payment
+        billing_mode: 计费方式
+        edit_payment: 修改支付
         currency_hint: "You are using %{name} (%{code}) as your default currency."
         change_currency: "Change currency"
       update:
